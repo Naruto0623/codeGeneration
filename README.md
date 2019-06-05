@@ -1,6 +1,6 @@
 # code-generation
 
-> 利用node自动生成代码
+> 利用node自动生成页面代码，并自动注册路由
 
 ## Using
 

@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
+import pageRouter from './routerRegister';
 
-Vue.use(Router)
+console.log('自动注册的路由：', pageRouter);
+Vue.use(Router);
 
 export default new Router({
   routes: [
@@ -10,6 +12,7 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
-    }
+    },
+    ...pageRouter
   ]
 })

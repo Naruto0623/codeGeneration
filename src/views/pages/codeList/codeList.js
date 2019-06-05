@@ -1,5 +1,5 @@
 export default {
-  name: 'newCode',
+  name: 'codeList',
   components: {},
   data(){
     return {
