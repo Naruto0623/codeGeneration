@@ -1,7 +1,7 @@
 {
   "name": "code-generation",
   "version": "1.0.0",
-  "description": "利用node自动生成代码",
+  "description": "利用node自动生成页面代码，并自动注册路由",
   "author": "Naruto0623 <644683652@qq.com>",
   "private": false,
   "license": "ISC",
